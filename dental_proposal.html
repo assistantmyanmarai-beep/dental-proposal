@@ -340,6 +340,27 @@
   .req-item-label { color: var(--text-dim); margin-bottom: 4px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
   .req-item-value { color: var(--text); font-weight: 500; }
 
+  /* Mobile Responsive */
+  @media (max-width: 640px) {
+    body { padding: 0; }
+    .page { border-radius: 0; border: none; }
+    .header { padding: 28px 20px 24px; }
+    .header-title { font-size: 22px; }
+    .logo-wrap { width: 48px; height: 48px; }
+    .logo-wrap svg { width: 32px; height: 32px; }
+    .meta { padding: 12px 20px; flex-wrap: wrap; gap: 10px; }
+    .meta-item { flex: 1 1 40%; border-right: none; margin-right: 0; padding-right: 0; }
+    .body { padding: 24px 20px; }
+    .feature-grid { grid-template-columns: 1fr; }
+    .pricing-grid { grid-template-columns: 1fr; }
+    .phase2-grid { grid-template-columns: 1fr; }
+    .req-grid { grid-template-columns: 1fr; }
+    .deposit-row { flex-direction: column; gap: 4px; }
+    .deposit-value { text-align: left; }
+    .footer { padding: 20px; flex-direction: column; gap: 12px; }
+    .footer-right { text-align: left; }
+  }
+
   /* Footer */
   .footer {
     background: #080D17;
